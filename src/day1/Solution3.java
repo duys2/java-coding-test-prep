@@ -33,6 +33,5 @@ public class Solution3 {
 		}
 
 		System.out.println(result);
-
 	}
 }
