@@ -16,7 +16,7 @@ public class Solution10 {
 		System.out.println((new Solution10()).solution("Program29b8UYP", "merS123", 7));
 	}
 
-	public String solution(String my_string, String overwrite_string, int s) {
+	/*public String solution(String my_string, String overwrite_string, int s) {
 		String answer = "";
 
 		String text = my_string.substring(s, overwrite_string.length() + s); // 바꿀 문자열
@@ -24,14 +24,14 @@ public class Solution10 {
 		answer = my_string.replace(text, overwrite_string); // 바꿀 문자열을 overwrite_string으로 변환
 
 		return answer;
-	}
+	}*/
 
 	/* --------------- 다른 사람 풀이 --------------- */
-	/*public String solution(String my_string, String overwrite_string, int s) {
+	public String solution(String my_string, String overwrite_string, int s) {
 		String before = my_string.substring(0, s);
 		String after = my_string.substring(s + overwrite_string.length());
 		return before + overwrite_string + after;
-	}*/
+	}
 
 	/*public String solution(String my_string, String overwrite_string, int s) {
 		char[] my_chars = my_string.toCharArray();
