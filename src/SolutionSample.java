@@ -1,4 +1,4 @@
-public class Sample {
+public class SolutionSample {
 	/* 문제 설명
 
 	*/
