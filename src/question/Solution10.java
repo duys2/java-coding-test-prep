@@ -1,4 +1,4 @@
-package day2;
+package question;
 
 public class Solution10 {
 	/* 문제 설명
