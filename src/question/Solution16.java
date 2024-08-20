@@ -17,7 +17,5 @@ public class Solution16 {
 
 	public int solution(int num, int n) {
 		return num % n == 0 ? 1 : 0;
-
-		/* --------------- 다른 사람 풀이 --------------- */
 	}
 }
